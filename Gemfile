@@ -20,7 +20,6 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-
 # bootstrap
 
 gem 'bootstrap-sass', '3.3.7'
@@ -49,6 +48,7 @@ group :development, :test do
   gem "database_cleaner"
   gem "rspec-rails"
   gem "rack_session_access"
+  gem 'pry'
 end
 
 group :development do
